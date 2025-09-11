@@ -5,13 +5,24 @@
     
 }
 
+@media (min-width: 700px) {
+    .wrapper {
+        max-width: 900px;
+        margin: 2rem auto;
+    }
 
+    .profile-picture{
+        margin: 0 auto;
+    }
+
+   
+}
 
 .profile-picture{
     width:80px;
     height:auto;
     display:block;
-    margin: 0 auto;
+    
 }
 
 .header{
@@ -85,6 +96,13 @@
     padding-bottom:5px;
 }
 
+
+@media (min-width:1200px){
+    .header{
+        display:flex;
+        
+    }
+}
 
 
 
