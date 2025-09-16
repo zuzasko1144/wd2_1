@@ -21,27 +21,56 @@ body{
     border-radius:8px;
 }
 
+    .picture-div{
+       
+       text-align:center;
+
+       
+    }
 
 @media (min-width: 700px) {
     .wrapper {
         max-width: 900px;
         margin: 2rem auto;
         background-color:white;
+
         
     }
 
-    .profile-picture{
-        margin: 0 auto;
-    }
 
    
+}
+
+@media (min-width:1024px){
+    .dovednosti{
+        display:grid;
+        grid-template-columns:repeat(4,1fr);
+        gap:15px;
+    }
+
+    .section-header{
+        padding-top:20px;
+    }
+
+    .portfolio-dovednosti{
+      display:flex;
+      gap:10px;
+    }
+
+    .header{
+        display:flex;
+        align-items:center;
+        text-align:left;
+        gap:20px;
+        
+    }
 }
 
 
 .profile-picture{
     width:80px;
     height:auto;
-    display:block;
+    
     
 }
 
