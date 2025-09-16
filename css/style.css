@@ -7,12 +7,27 @@
 
 body{
     font-family: sans-serif;
+    background-color:rgb(243,244,246);
 }
+
+.wrapper{
+    background-color: white;
+    max-width:90%;
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:8px;
+}
+
 
 @media (min-width: 700px) {
     .wrapper {
         max-width: 900px;
         margin: 2rem auto;
+        background-color:white;
+        
     }
 
     .profile-picture{
@@ -21,6 +36,7 @@ body{
 
    
 }
+
 
 .profile-picture{
     width:80px;
